@@ -1,27 +1,30 @@
 # jaccuziArduiControler
-Jaccuzi management code for arduino Mega board (water circulation + heater + ozoner cycles + heure pleines/heures creuse )
+Jaccuzi management code for arduino Mega board (water circulation cycles + heater management + ozoner cycles + full hours/off peaks hours for heater )
 
-Hardware :
+Hardware for the project:
 
 1 arduino MEGA card
 
-1 module RTC DS1307 ( bus I2C)
+1 RTC DS1307 module ( bus I2C)
 
-1 LCD  16 cols x 2 lines
+1 LCD  16 cols x 2 lines module
 
-1 2 Relay 10A /220V with freewheel and opto card
+1 2xRelay 10A /220V with freewheel and opto module
 
-     for ozoner
-     for heater circulation pump
+     1 10A runned under 220V AC for ozoner
+     1 10A runned under 220V AC for heater circulation pump
 
-1 4 Relay 10A/220V  with freewheel and opto card
+1 4xRelay 10A/220V  with freewheel and opto module
 
-     for heater . 4 Relays working in parrallel to drain suffisant current for heater (3kWatts)
+     4 10A runned under 220V AC for electrical heater . 4 Relays working in parrallel to drain suffisant current for heater (3kWatts)
      so almost 3.5 Amp for each relay
 
-1 Relay 10A/220V with freewheel and opto card
+1 1xRelay 10A/220V with freewheel and opto module
 
-     for leakPump (unable to fix a small leak in the jaccuzi heater circuit, so collecting leak and re injecting it in the jaccuzi
+     1 10A runned under 12V DC for leakPump 
+     (unable to fix a small leak in the jaccuzi heater circuit because of pvc circuit totally confined 
+     into a big amount of polyurethane foam (almost impossible the access the leak without causing more damages), 
+     so collecting the leak and re injecting it in the jaccuzi  when high level detected in the collector below the leak.)
      
 1 Water level detector
 
@@ -47,3 +50,11 @@ The rest from the jacuzzi
    .....
    
    
+   
+   To upgrade for future revisions :
+   * Add a flow meter into the hot water circulation circuit to shudown the heater in case of pump failure and protect the heater form  overheat.
+   (actually, the temperature sensor used is not taking temperature in the jaccuzzi, but is in contact with alluminium pipe of 
+   the heater, in order to prevent overheat in case of flow stop in the circuit. 
+   Nevertheless, totaly representative of the temperature into the jaccuzi with 1°C  precision).
+   
+   * Add ethernet/wifi connectivity for remote monitoring / management of the jaccuzi. 
