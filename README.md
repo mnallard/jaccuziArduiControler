@@ -46,7 +46,7 @@ Hardware for the project:
 
 1 21 touchs small IR emmettor to manage consigned temp, forcing heater, and walking into the differents menus 
 
-(please note that everything included (except power suplies) into the arduino mega starter kit for less than 40$ )
+(please note that everything included (except power suplies and small pump) into the arduino mega starter kit for less than 40$ )
 
 The rest from the jacuzzi
    
