@@ -59,6 +59,8 @@ The rest from the jacuzzi
    
    .....
    
+   
+   
    To come soon :
    The UML diagram of differents classes designed for this project.
    
