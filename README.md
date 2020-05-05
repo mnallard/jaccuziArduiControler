@@ -1,5 +1,5 @@
 # jaccuziArduiControler
-Because my Gecko SPA controler card out of service for the heater part of my SPA, and need more than 500$ for replacement, 
+Because my Gecko SPA controler card failed out of service for the heater part of my SPA, and need more than 500$ for replacement, 
 i decided to start this spa management project with arduino Mega board (an arduino Uno with a 74HC595 is suffisant but require more cabling)  
 (for managing failed features of the Gecko card : hot water circulation cycles + heater management + ozoner cycles + full hours/off peaks hours for heater + a leak management).
 
