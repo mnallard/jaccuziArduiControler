@@ -42,7 +42,7 @@ Hardware for the project:
 
 The rest from the jacuzzi
    
-   temperature sonde
+   temperature probe
    water circulation pump
    heater 
    ozoner
@@ -58,3 +58,5 @@ The rest from the jacuzzi
    Nevertheless, totaly representative of the temperature into the jaccuzi with 1°C  precision).
    
    * Add ethernet/wifi connectivity for remote monitoring / management of the jaccuzi. 
+   
+   * Add a ph probe for water quality analysis and reporting.
