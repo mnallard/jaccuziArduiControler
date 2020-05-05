@@ -5,7 +5,9 @@ Hardware for the project:
 
 1 arduino MEGA card
 
-1 RTC DS1307 module ( bus I2C)
+1 RTC DS1307 module ( bus I2C) 
+    (used for getting datetime +
+    storing temperature consign into the small amount of persistant ram of the DS1307)
 
 1 LCD  16 cols x 2 lines module
 
