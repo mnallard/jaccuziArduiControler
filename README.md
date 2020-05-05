@@ -59,9 +59,11 @@ The rest from the jacuzzi
    
    .....
    
+   To come soon :
+   The UML diagram of differents classes designed for this project.
    
    
-   To upgrade for future revisions :
+   Minds for future revisions :
    * Add a flow meter into the hot water circulation circuit to shudown the heater in case of pump failure and protect the heater form  overheat.
    (actually, the temperature sensor used is not taking temperature in the jaccuzzi, but is in contact with alluminium pipe of 
    the heater, in order to prevent overheat in case of flow stop in the circuit. 
