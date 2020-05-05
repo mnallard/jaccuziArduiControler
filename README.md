@@ -1,9 +1,15 @@
 # jaccuziArduiControler
-Jaccuzi management code for arduino Mega board (water circulation cycles + heater management + ozoner cycles + full hours/off peaks hours for heater )
+Because my Gecko SPA controler card out of service for the heater part of my SPA, and need more than 500$ for replacement, 
+i decided to start this spa management project with arduino Mega board (an arduino Uno with a 74HC595 is suffisant but require more cabling)  
+(for managing failed features of the Gecko card : hot water circulation cycles + heater management + ozoner cycles + full hours/off peaks hours for heater + a leak management).
+
+The rest of jacuzzi features (blower + water jets ) are not covered into this project, because still working with the Gecko card, and the Gecko panel of the jaccuzzi.
 
 Hardware for the project:
 
 1 arduino MEGA card
+
+1 arduino mega prototype shield
 
 1 RTC DS1307 module ( bus I2C) 
     (used for getting datetime +
