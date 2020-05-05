@@ -16,13 +16,15 @@ Hardware for the project:
 
 1 4xRelay 10A/220V  with freewheel and opto module
 
-     4 10A runned under 220V AC for electrical heater . 4 Relays working in parrallel to drain suffisant current for heater (3kWatts)
+     4 10A runned under 220V AC for electrical heater . 
+     4 Relays working in parallel to drain suffisant current for heater 
+        without exceeding 10A relay max capacity (3kWatts for heater)
      so almost 3.5 Amp for each relay
 
 1 1xRelay 10A/220V with freewheel and opto module
 
      1 10A runned under 12V DC for leakPump 
-     (unable to fix a small leak in the jaccuzi heater circuit because of pvc circuit totally confined 
+     (unable to fix a small leak in the jaccuzi heater circuit because of pvc pipes totally confined 
      into a big amount of polyurethane foam (almost impossible the access the leak without causing more damages), 
      so collecting the leak and re injecting it in the jaccuzi  when high level detected in the collector below the leak.)
      
@@ -38,7 +40,13 @@ Hardware for the project:
 
 1 a fistfull of resitors / colored leds  and rvb leds
 
-1 variable resitor for lcd contrast 
+1 variable resitor for lcd contrast
+
+1 IR receptor led
+
+1 21 touchs small IR emmettor to manage consigned temp, forcing heater, and walking into the differents menus 
+
+(please note that everything included (except power suplies) into the arduino mega starter kit for less than 40$ )
 
 The rest from the jacuzzi
    
