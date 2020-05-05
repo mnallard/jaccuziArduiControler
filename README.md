@@ -5,6 +5,13 @@ i decided to start this spa management project with arduino Mega board (an ardui
 
 The rest of jacuzzi features (blower + water jets ) are not covered into this project, because still working with the Gecko card, and the Gecko panel of the jaccuzzi.
 
+Code weigth :
+
+After compilation with Genouino : 19.4 Kbytes for code , and 1.1 Kbytes for variables.
+
+'Sketch uses 19898 bytes (7%) of program storage space. Maximum is 253952 bytes.
+Global variables use 1218 bytes (14%) of dynamic memory, leaving 6974 bytes for local variables. Maximum is 8192 bytes.'
+
 Hardware for the project:
 
 1 arduino MEGA card
